@@ -162,3 +162,33 @@ li {
       0 0 60px rgba(255, 255, 255, 0.8);
   }
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding: 20px;
+  }
+  li {
+    padding: 15px;
+    font-size: 18px;
+  }
+}
+
+/* Further adjustments for even smaller screens */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  .container {
+    padding: 15px;
+  }
+  li {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .Input_box {
+    width: 90%; /* Adjust input box width */
+  }
+}
